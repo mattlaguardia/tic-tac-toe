@@ -12,8 +12,8 @@
 		<div class = "scoreboard">
 			<table>
 				<tr>
-					<td class = "player1" >Player 1: </td>
-					<td class = "player2" >Player 2: </td>
+					<td id = "player1" >Player 1: </td>
+					<td id = "player2" >Player 2: </td>
 				</tr>
 			</table>
 		</div>
@@ -24,24 +24,24 @@
 		<div class = "tic-tac-toe">	
 			<table id="board">
 				<tr>
-					<td class="box" id="b1" onclick='nextMove(this);'></td>
-					<td class="box" id="b2" onclick='nextMove(this);'></td>
-					<td class="box" id="b3" onclick='nextMove(this);'></td>
+					<td class="box" id="b1" onclick="nextMove(this);"></td>
+					<td class="box" id="b2" onclick="nextMove(this);"></td>
+					<td class="box" id="b3" onclick="nextMove(this);"></td>
 				</tr>
 				<tr>
-					<td class="box" id="b4" onclick='nextMove(this);'></td>
-					<td class="box" id="b5" onclick='nextMove(this);'></td>
-					<td class="box" id="b6" onclick='nextMove(this);'></td>
+					<td class="box" id="b4" onclick="nextMove(this);"></td>
+					<td class="box" id="b5" onclick="nextMove(this);"></td>
+					<td class="box" id="b6" onclick="nextMove(this);"></td>
 				</tr>
 				<tr>
-					<td class="box" id="b7" onclick='nextMove(this);'></td>
-					<td class="box" id="b8" onclick='nextMove(this);'></td>
-					<td class="box" id="b9" onclick='nextMove(this);'></td>
+					<td class="box" id="b7" onclick="nextMove(this);"></td>
+					<td class="box" id="b8" onclick="nextMove(this);"></td>
+					<td class="box" id="b9" onclick="nextMove(this);"></td>
 				</tr>
 			</table>	
 		</div>
 
-		<button class = "reset" > RESET </button>
+		<a href="javascript:startGame();"><button class="reset" id="reset"> RESET </button></a>
 
 	</div>
 	</center>
